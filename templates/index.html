@@ -51,7 +51,7 @@ document.getElementById('reply').addEventListener("click", async (e) => {
     else{
     
         var res = "";
-        axios.get(`http://127.0.0.1:8000/chat?query=${req}`)
+        axios.get(`https://softbotday.herokuapp.com/chat?query=${req}`)
         .then((data) => {data_res.innerHTML = data.data.result });
             
         let data_req = document.createElement('div');
