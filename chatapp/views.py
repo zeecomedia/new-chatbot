@@ -6,6 +6,8 @@ import random
 # from random import choice
 import wikipedia
 import re
+# import httpx
+# import asyncio
 # from PyDictionary import PyDictionary
 
 
@@ -42,7 +44,7 @@ def index(request):
 
   
 
-Greeting_inputs = ["hello", "hi", "greetings", "sup", "What's up?", "hey","how are you?","how are you"]
+Greeting_inputs = ["hello", "hi", "greetings", "sup", "What's up?", "hey","how are you?","how are you","okay","ok"]
 
 Greeting_responses = ["hi", "hey", "*nods*", "hi there", "hello","I am glad! You are talking to me"]
 
@@ -64,7 +66,7 @@ def option_rockb_validate(req):
         result = rand_greeting()
     elif query_keywords:
         if querying_list:
-            result = Googlemenu(req)   #####
+            result = Googlemenu(req)  #####
         else:
             result = Educationmenu(req)
     else:

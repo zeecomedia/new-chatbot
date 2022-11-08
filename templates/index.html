@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  
     <title>ChatBot</title>
 
-  <link rel="stylesheet" href="{% static 'all.css' %}" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <link rel="stylesheet" type="text/css" href="{% static 'index.css' %}">
   <script src="{% static 'axios.min.js' %}" ></script>
-
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 </head>
 <body onload="init()">
     <div id="main">
@@ -51,7 +51,7 @@ document.getElementById('reply').addEventListener("click", async (e) => {
     else{
     
         var res = "";
-        axios.get(`https://softbotday.herokuapp.com/chat?query=${req}`)
+        axios.get(`/chat?query=${req}`)
         .then((data) => {data_res.innerHTML = data.data.result });
             
         let data_req = document.createElement('div');
