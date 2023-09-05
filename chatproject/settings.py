@@ -24,10 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+ckuu#+qp9g(n#_+q1^narr416nmgs5o0+eakr@^x1^l9sy43)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://softbotday.herokuapp.com','https://www.softbot.tk','https://softbot.tk']
+ALLOWED_HOSTS = ['https://iphonebot.herokuapp.com']
 
+ALLOWED_HOSTS = []
 
 # Application definition
 
