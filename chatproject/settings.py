@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['https://iphonebot-15531d93cf3b.herokuapp.com/']
 # Application definition
 
 INSTALLED_APPS = [
-  
+    'chatapp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
