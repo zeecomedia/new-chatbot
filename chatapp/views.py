@@ -7,7 +7,7 @@ import openai
 
 
 def query_chatgpt_api(new_user_prompt):
-    openai.api_key = "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"
+    openai.api_key = "OPEN-API-KEY"
     messages=[
         {
         "role": "system",
