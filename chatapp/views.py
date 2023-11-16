@@ -7,7 +7,7 @@ import openai
 
 
 def query_chatgpt_api(new_user_prompt):
-    openai.api_key = "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"
+    openai.api_key = "sk-i"
     model="gpt-3.5-turbo",
     messages=[
         {
