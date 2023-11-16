@@ -1,1 +1,1 @@
-# chatbot-api for a coding interview project using openai api endpoint
+# chatbot-api  a coding interview project using openai api endpoint
