@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+ckuu#+qp9g(n#_+q1^narr416nmgs5o0+eakr@^x1^l9sy43)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://zeeko.pythonanywhere.com/']
+ALLOWED_HOSTS = ['.onrender.com']
 
 # ALLOWED_HOSTS = []
 
