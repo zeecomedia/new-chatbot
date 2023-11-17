@@ -24,7 +24,6 @@ lockfile==0.12.2
 multidict==6.0.4
 openai==0.28.0
 packaging==23.1
-psycopg2==2.9.7
 python-daemon==3.0.1
 raven==6.10.0
 requests==2.31.0
